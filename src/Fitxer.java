@@ -7,7 +7,8 @@ public class Fitxer {
 
     public Fitxer() {
         navegaFitxer = new JFileChooser();
-        navegaFitxer.setFileSelectionMode(JFileChooser.FILES_AND_DIRECTORIES);
+        navegaFitxer.setFileSelectionMode(
+                JFileChooser.FILES_AND_DIRECTORIES);
         navegaFitxer.showOpenDialog(null);
         fitxer = navegaFitxer.getSelectedFile();
 
